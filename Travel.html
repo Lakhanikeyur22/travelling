@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Stayle.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#">HOME</a></li>
+            <li><a href="#">TOURS </a></li>
+            <li><a href="#">EXPLORE </a> </li>
+            <li><a href="#">ABOUT </a> </li>
+            <li class="ctn"><a href="#">CONTECT</a></li>
+        </ul>
+        <img src="photos/menu.png" alt="" class="manu-btn">
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colorful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT </h1>
+            <a href="#" class="ctn"> Learn more</a>
+        </div>
+    </header>
+
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <img src="photos/img2.jpg" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga placeat ipsam quis in consequuntur
+                    consectetur expedita, laborum adipisci molestias eius animi similique culpa assumenda accusantium
+                </p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+            <div class="col">
+                <img src="photos/img3.jpg" alt="">
+                <h4>Wolking Holidays</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga placeat ipsam quis in consequuntur
+                    consectetur expedita, laborum adipisci molestias eius animi similique culpa assumenda accusantium
+                </p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga placeat ipsam quis in consequuntur
+                consectetur
+                expedita, laborum adipisci molestias eius animi similique culpa assumenda accusantium
+            </p>
+            <a href="#" class="ctn">Learn more</a>
+        </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga placeat ipsam quis in consequuntur
+                    consectetur
+                    expedita, laborum adipisci molestias eius animi similique culpa assumenda accusantium
+                </p>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="photos/img7.jpg" alt="">
+                    <img src="photos/img6.jpg" alt="">
+                    <img src="photos/img9.jpg" alt="">
+                    <img src="photos/img8.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>123,Eva Surbhi , bhavnagar, Phone - 9558165316 , Email- lkeyur20@gmail.com</p>
+        <p>Copyright Year 1995 </p>
+    </section>
+
+    <script>
+        const manubtn = document.querySelector('.manu-btn')
+        const navlinks = document.querySelector('.nav-links')
+        manubtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-manu')
+        })
+    </script>
+</body>
+
+</html>
